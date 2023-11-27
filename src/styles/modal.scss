@@ -1,0 +1,47 @@
+.ant-modal-content {
+  border-radius: 12px !important;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.09) !important;
+  background-color: #fff !important;
+  padding: 0 !important;
+}
+
+.ant-modal-close-x {
+  color: #404040 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.ant-modal-header {
+  background: #b4d0c133 !important;
+  padding: 16px 24px !important;
+  border-radius: 10px 10px 0px 0px !important;
+
+  .ant-modal-title {
+    color: #404040 !important;
+    font-size: 18px !important;
+  }
+}
+
+.ant-modal-body {
+  padding: 1rem;
+}
+
+//modal for preview box
+.modal {
+  position: absolute;
+  margin: auto;
+  padding: 0;
+  top: 40% !important;
+  left: 20%;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+

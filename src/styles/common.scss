@@ -1,0 +1,94 @@
+.common {
+    &_card {
+        background: #ffffff;
+        box-shadow: 0px 5px 24px rgba(13, 10, 44, 0.1);
+    }
+    &_error {
+        color: rgb(194, 53, 53);
+        font-size: 0.8rem;
+    }
+    &_normalInput {
+        label {
+            font-family: "Montserrat";
+            font-weight: 500;
+        }
+        .ant-input {
+            font-family: "Montserrat";
+            font-size: 14px;
+        }
+    }
+    &_primany_btn {
+        background-color: $PRIMARY_COLOR;
+        border: 1px solid $PRIMARY_COLOR !important;
+        color: #ffffff;
+        height: 40px;
+        font-family: "Montserrat-Medium";
+        &:hover {
+            color: #ffffff !important;
+            border: 1px solid $PRIMARY_COLOR !important;
+        }
+    }
+    &_light_btn {
+        background-color: #fff;
+        border: 1px solid #ffffff;
+        color: $PRIMARY_COLOR;
+        height: 40px;
+        font-family: "Montserrat-Medium";
+        &:hover {
+            color: $PRIMARY_COLOR !important;
+            border: 1px solid #fff !important;
+        }
+    }
+}
+.close_btn {
+    background-color: #d9d9d9;
+    color: gray;
+}
+
+.searchBox {
+    .ant-input-search {
+        font-family: "Montserrat";
+        font-size: 14px;
+        border: none;
+    }
+    button {
+        background-color: #056433;
+        &:hover {
+            background-color: #056433 !important;
+        }
+    }
+}
+
+/* Style text tooltip */
+.tooltipText {
+    background-color: #94cdaf;
+    position: absolute;
+    bottom: 130%;
+    width: 400px;
+    left: -100px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0;
+    transition: all 0.5s;
+    color: #0f1419;
+}
+
+/*  Membuat dan style tip*/
+.tooltipText::after {
+    content: "";
+    border-width: 5px;
+    border-style: solid;
+    border-color: #e5e7eb transparent transparent transparent;
+    position: absolute;
+    top: 100%;
+    left: 28%;
+}
+.tooltip:hover .tooltipText {
+    opacity: 1;
+}
+.tooltip {
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+}
