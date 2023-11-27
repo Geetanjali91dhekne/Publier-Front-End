@@ -1,0 +1,58 @@
+#sidebar {
+    padding: 1rem 0.5rem 0px 1rem;
+    background-color: $SIDEBAR_COLOR;
+    .sidebar {
+        .ant-menu-item {
+            font-size: 14px;
+            padding-left: 0 !important;
+            font-weight: 600;
+            font-family: "Inter";
+            color: #a8a8a8;
+            svg {
+                font-size: 1.3rem;
+                color: #a8a8a8;
+            }
+            &:hover {
+                background-color: transparent;
+            }
+        }
+        .ant-menu-submenu {
+            font-size: 14px;
+            .ant-menu-submenu-title {
+                padding-left: 0 !important;
+                font-weight: 600;
+                font-family: "Inter";
+                color: #a8a8a8;
+                svg {
+                    font-size: 1.3rem;
+                }
+                &:hover {
+                    background-color: transparent;
+                }
+            }
+            .ant-menu-sub {
+                background-color: transparent;
+                .ant-menu-item {
+                    padding-left: 24px !important;
+                    font-weight: "Inter";
+                    color: #a8a8a8;
+                    svg {
+                        font-size: 1.3rem;
+                    }
+                }
+                .ant-menu-item-selected {
+                    background-color: #eaf2ed;
+                    border-radius: 8px;
+                    color: $PRIMARY_COLOR;
+                }
+            }
+        }
+        .ant-menu-submenu-open {
+            .ant-menu-submenu-title {
+                color: $PRIMARY_COLOR;
+                font-weight: 600;
+                font-family: "Inter";
+            }
+        }
+    }
+}

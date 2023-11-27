@@ -1,0 +1,63 @@
+{
+    "message": "favourite data get successfully",
+    "status": true,
+    "revenue": "0.15",
+    "favouriteData": [
+        {
+            "id": 17,
+            "date": "2021-10-09",
+            "site_id": 1023,
+            "network_id": 175,
+            "size_id": 30,
+            "impressions": 55,
+            "revenue": "0.11",
+            "clicks": 0,
+            "status": 1,
+            "type": null,
+            "manual_change": 0,
+            "favourite": 1
+        },
+        {
+            "id": 12,
+            "date": "2021-10-06",
+            "site_id": 1023,
+            "network_id": 175,
+            "size_id": 30,
+            "impressions": 25,
+            "revenue": "0.04",
+            "clicks": 0,
+            "status": 1,
+            "type": null,
+            "manual_change": 0,
+            "favourite": 1
+        },
+        {
+            "id": 6,
+            "date": "2021-09-27",
+            "site_id": 1054,
+            "network_id": 158,
+            "size_id": 8,
+            "impressions": 3,
+            "revenue": "0.00",
+            "clicks": 0,
+            "status": 1,
+            "type": null,
+            "manual_change": 0,
+            "favourite": 1
+        },
+        {
+            "id": 2,
+            "date": "2021-09-05",
+            "site_id": null,
+            "network_id": null,
+            "size_id": 0,
+            "impressions": 0,
+            "revenue": "0.00",
+            "clicks": null,
+            "status": 0,
+            "type": null,
+            "manual_change": 0,
+            "favourite": 1
+        }
+    ]
+}

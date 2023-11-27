@@ -1,0 +1,49 @@
+.ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
+     background-color: #056433;
+}
+
+.ant-radio-wrapper {
+     border-color: #056433;
+}
+
+.ant-radio:hover .ant-radio-inner {
+     border-color: #056433;
+}
+
+.ant-menu-item-selected {
+     background-color: #eaf2ed !important;
+     color: #056433 !important;
+}
+
+.ant-steps-icon {
+     color: #ffffff !important;
+}
+
+.ant-steps-item-icon {
+     background-color: #056433 !important;
+     border-color: #056433 !important;
+}
+
+.ant-custom-select {
+     .ant-select-selector{
+          padding:0 0px !important;
+          height: 40px !important;
+
+          .ant-select-selection-item {
+               font-size: 18px;
+               font-family: 'Roboto';
+               font-weight: 500;
+               background-color: #ECECEC;
+               display: flex;
+               align-items: center;
+               padding-left: 10px;
+               border-radius: 8px;
+          }
+     }
+}
+
+.ant-menu-submenu-popup .ant-menu-vertical >.ant-menu-item{
+     display: flex;
+
+     align-items: center;
+}

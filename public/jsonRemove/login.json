@@ -1,0 +1,28 @@
+{
+    "jwt_token": {
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZWE3YjBjY2Y3ZTQyNTUzYWExNThlY2JhZTQzNTJhMmIzNTk1ZTMzYTMzZjZkZTY5MTlhNTRmMGYzZjI3MTc5NzU1NTExZTU1ZTNiNzFiYzgiLCJpYXQiOjE2NzE2MDg3MDYuODQwMDAyLCJuYmYiOjE2NzE2MDg3MDYuODQwMDA3LCJleHAiOjE3MDMxNDQ3MDYuODI0MzczLCJzdWIiOiIyMjYiLCJzY29wZXMiOltdfQ.aiwBEEy0qXkg1d-6nknouQJZvox08rXhUdfV7m3eux8tvTTRMEs6nEy6jkQ19mdp_MxK0_3Q0_koc_CnEkhDZQCbJ4Nciu-m8OIbt-fNV6KQrVw5BzMviIpxiPleZfeqOHfX7Z2nEC8up7YHdsyE0VkH2nf4Cbol3Q5sOUyzxUb5Ta2vsHJiiJiyUpXCF35WAaGS8-gUdH03MFYgRpwLXcTxStW7rcsp_9tGaZiecGiCI4LDxp63eufmcSqdaljrfSd96a5bNunMShuQx9Q8ykti2XgleFKFZcl3TDLGv9MKXOdpa7Mcs3NMJF3tFTn6f2YHLAnBzVux85RZ0DoQinSHfXIw46Xc8QZOumSo182m9oR1W7uSZgCDXOBtKkc1XEkPHs0tQS8BdP2NIKzd4WekpiIlY7meTm2uTeEqzsIIZT1vm_eqYFZlNXuIMB9Yxm7DDZFi17hkNDo4B1XVDBaWmKX205Kfii1r7oyF6EQqG9xcl-zRcwFa9j-wnOmoZElwno4CtDDJtakoPakjC5gMuU0qrHJH7rlZWLQ3Qw27XwwfQ4C0uGb7B-XyJvepWWkZrblIrvU6aw5Fpyrp4O6y7kN-toyAJ_wBbij41GRxxJGCm0iLVsZdH-pWklY_8j-aNVmcl3bClgfwcMeXpAxpTrnjI0p6HfYb6TiPfHY"
+    },
+    "user": {
+        "id": 226,
+        "publisher_id": "PR1668745751202",
+        "full_name": "Basant",
+        "email": "basantkumar2020@gmail.com",
+        "referral_code": "PRHCCIBAJ",
+        "publisher_type": "super_admin",
+        "access_type": "All",
+        "show_network_level_data": "N",
+        "verification_link": "",
+        "reset_password_link": "",
+        "profile_pic": "",
+        "parent_gam_id": null,
+        "gam_api_name": null,
+        "gam_api_email": null,
+        "gam_api_passcode": null,
+        "gam_api_status": "N",
+        "created_at": "2022-11-17 23:29:11",
+        "verified_at": null,
+        "lastlogin_at": "2022-12-01 00:11:58",
+        "status": "Y",
+        "updated_at": "2022-11-18 09:59:11"
+    }
+}
